@@ -54,8 +54,7 @@ If using this dataset, please cite the paper above and direct any
 dataset-related questions to [Tnani
 Mohamed-Ali](mailto:mohamed-ali.tnani@boschrexroth.de).
 
-**Source Repository:\
-** 🔗
+**Source Repository:** 🔗
 [https://github.com/boschresearch/CNC_Machining](https://github.com/boschresearch/CNC_Machining)
 
 **License**: The dataset is licensed under the Creative Commons
@@ -64,17 +63,16 @@ Attribution 4.0 International License (CC BY 4.0).
 **Dataset Description:**
 
 -   The dataset includes real-world vibration data from three CNC
-    > milling machines executing 15 processes over six labeled
-    > timeframes from **October 2018 to August 2021**
+    milling machines executing 15 processes over six labeled
+    timeframes from **October 2018 to August 2021**
 
 -   Acceleration was measured using a **tri-axial Bosch CISS Sensor** at
-    > a **2 kHz sampling rate**
+    a **2 kHz sampling rate**
 
 -   Files are stored in **HDF5 format** and labeled as either good
-    > (normal) or bad (anomalous)
+    (normal) or bad (anomalous)
 
--   Each .h5 file contains a 2D array of acceleration data with axes: X,
-    > Y, Z
+-   Each .h5 file contains a 2D array of acceleration data with axes: X, Y, Z
 
 **📂 Project Phases & Folder Structure**
 ---------------------------------------
@@ -102,20 +100,16 @@ specific to that step.
 
 ### **🟦 phase_1\_data_conversion/**
 
-> **Goal:** Convert raw HDF5 files into structured, scalable Delta Lake
-> format using PySpark.
+> **Goal:** Convert raw HDF5 files into structured, scalable Delta Lake format using PySpark.
 
 ### **🟩 phase_2\_exploration_analysis/**
 
-> **Goal:** Perform descriptive statistics and visualize patterns in the
-> vibration data.
+> **Goal:** Perform descriptive statistics and visualize patterns in the vibration data.
 
 ### **🟨 phase_3\_modeling/**
 
-> **Goal:** Engineer features and train machine learning models to
-> detect anomalies in time series data.
+> **Goal:** Engineer features and train machine learning models to detect anomalies in time series data.
 
 ### **🟥 phase_4\_deployment_databricks/**
 
-> **Goal:** Deploy the end-to-end pipeline to Databricks for scalable
-> processing and analysis.
+> **Goal:** Deploy the end-to-end pipeline to Databricks for scalable processing and analysis.
