@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  spark-notebook:
+    build: .
+    container_name: spark-ds-env
+    ports:
+      - "8888:8888"  # for Jupyter notebook access
+    volumes:
+      - ../:/app     # mount the full project directory
+      - ../data:/app/data
+    environment:
+      - PYSPARK_PYTHON=python3
+      - PYSPARK_DRIVER_PYTHON=python3

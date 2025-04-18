@@ -14,3 +14,8 @@ __pycache__/
 
 # Ignore system files
 .DS_Store
+
+# Docker
+**/__pycache__/
+docker/.env
+docker/.pytest_cache/
