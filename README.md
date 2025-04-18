@@ -14,32 +14,26 @@ Jupyter notebooks to robust, big data-ready pipelines.
 This project is designed to provide hands-on experience with the full
 lifecycle of a modern data science project, including:
 
--   🐳 **Setting up a reproducible coding environment** using Docker, VS
-    > Code, and Python
+-   🐳 **Setting up a reproducible coding environment** using Docker, VS Code, and Python
 
--   🔄 **Converting legacy data formats** (HDF5) to modern big data
-    > formats (Delta Lake)
+-   🔄 **Converting legacy data formats** (HDF5) to modern big data formats (Delta Lake)
 
 -   📊 **Exploring time series sensor data** using Pandas, Spark, and
-    > visualization libraries
+    visualization libraries
 
 -   📈 **Engineering features** for anomaly detection from raw
-    > accelerometer signals
+    accelerometer signals
 
--   🤖 **Training and evaluating machine learning models** on time series
-    > data
+-   🤖 **Training and evaluating machine learning models** on time series data
 
--   📁 **Managing and querying data at scale** using Apache Spark and
-    > Delta Lake
+-   📁 **Managing and querying data at scale** using Apache Spark and Delta Lake
 
--   🧪 **Tracking experiments** using MLflow for model development and
-    > evaluation
+-   🧪 **Tracking experiments** using MLflow for model development and evaluation
 
 -   🚀 **Transitioning from local development to cloud deployment** using
-    > Databricks
+    Databricks
 
--   🔄 **Working with version-controlled, modular Python scripts** for
-    > scalable workflows
+-   🔄 **Working with version-controlled, modular Python scripts** for scalable workflows
 
 **📦 Data Attribution**
 ----------------------
@@ -54,15 +48,15 @@ Collection System for Brownfield CNC Milling Machines: A New Benchmark
 Dataset for Data-Driven Machine Monitoring.* Procedia CIRP 2022, 107,
 131--136.\
 DOI:
-[[10.1016/j.procir.2022.04.022]{.ul}](https://doi.org/10.1016/j.procir.2022.04.022)
+[10.1016/j.procir.2022.04.022](https://doi.org/10.1016/j.procir.2022.04.022)
 
 If using this dataset, please cite the paper above and direct any
-dataset-related questions to [**[Tnani
-Mohamed-Ali]{.ul}**](mailto:mohamed-ali.tnani@boschrexroth.de).
+dataset-related questions to [Tnani
+Mohamed-Ali](mailto:mohamed-ali.tnani@boschrexroth.de).
 
 **Source Repository:\
 ** 🔗
-[[https://github.com/boschresearch/CNC_Machining]{.ul}](https://github.com/boschresearch/CNC_Machining)
+[https://github.com/boschresearch/CNC_Machining](https://github.com/boschresearch/CNC_Machining)
 
 **License**: The dataset is licensed under the Creative Commons
 Attribution 4.0 International License (CC BY 4.0).
