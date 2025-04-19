@@ -65,13 +65,10 @@ Attribution 4.0 International License (CC BY 4.0).
 -   The dataset includes real-world vibration data from three CNC
     milling machines executing 15 processes over six labeled
     timeframes from **October 2018 to August 2021**
-
 -   Acceleration was measured using a **tri-axial Bosch CISS Sensor** at
     a **2 kHz sampling rate**
-
 -   Files are stored in **HDF5 format** and labeled as either good
     (normal) or bad (anomalous)
-
 -   Each .h5 file contains a 2D array of acceleration data with axes: X, Y, Z
 
 **📂 Project Phases & Folder Structure**
@@ -88,15 +85,11 @@ specific to that step.
 > **Goal:** Establish a reproducible and modular development
 > environment.
 
--   Docker configuration (Dockerfile, docker-compose.yml)
-
--   VS Code workspace setup and extensions
-
--   Project structure scaffolding
-
--   Attribution and licensing
-
--   How to run and test locally inside the container
+-   Set up a structured project repository with clear folder organization and version control
+-   Use Docker to create a consistent, containerized Python + Spark environment
+-   Configure VS Code to run and develop code directly inside the Docker container
+-   Ensure all required Python libraries and tools (e.g., Spark, Delta Lake, h5py) are installed and functional
+-   Verify the setup by running a Jupyter notebook from inside the container
 
 ### **🟦 phase_1\_data_conversion/**
 
