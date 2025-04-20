@@ -34,9 +34,11 @@ This phase lays the foundation for the entire project by setting up a reproducib
         ```
 
 -   If you are forking this project, you will still need to add the raw data in order to run Phase 1, which is the data conversion to Delta Lake:
-    -   Fork the repo below to your Github account: [https://github.com/boschresearch/CNC_Machining](https://github.com/boschresearch/CNC_Machining)
+    -    Fork the `CNC_Machining` repo to your Github account: [https://github.com/boschresearch/CNC_Machining](https://github.com/boschresearch/CNC_Machining)
     -   Clone the repo above from your Github account to add the files to your local machine
     -   Copy the raw data from the cloned repo to `data/raw` by copying the entire data folder and renaming it to `raw` *after* it is inside the project data folder
+
+⚠️ If you want to skip Phase 1, you can download a zip file of the data in Delta Lake from [My Google Drive](https://drive.google.com/file/d/14ypcXJg0_hz5hYZ6fk8aqHLTzvsHsD61/view?usp=sharing). This will allow you to run the code in Phases 2, 3, and 4.
 
 ### **0.3 Install Docker**
 
@@ -47,11 +49,11 @@ This phase lays the foundation for the entire project by setting up a reproducib
 
 This project uses Docker to provide a reproducible Python environment with PySpark and Delta Lake. By containerizing the development environment, you ensure that your code runs consistently across machines, with all necessary dependencies installed and isolated.
 
-You have two options for setting up the Docker container: building it locally from the provided files, or pulling a pre-built image from Docker Hub.
+You have two options for setting up the Docker container: building it locally from the provided files, or pulling a pre-built image from Docker Hub. Using the pre-built image is the only way to guarantee that the code is compatible with the packages and libraries used in the project.
 
 #### 🔧 Option 0.4a: Build the Docker Container from Project Files
 
-This method allows for full customization and is ideal for development environments.
+This method allows you to use the latest versions of packages, unless the version is specified in the Dockerfile. The Dockerfile is set up to install compatible versions of Spark and Delta Lake as of April 2025.
 
 📁 Files Involved:
 
