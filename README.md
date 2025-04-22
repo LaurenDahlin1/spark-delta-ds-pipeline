@@ -1,4 +1,4 @@
-# spark-delta-ds-pipeline
+# **spark-delta-ds-pipeline**
 
 This project demonstrates a modern, reproducible data science workflow
 using Python, Delta Lake, and Apache Spark. Starting from raw vibration

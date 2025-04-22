@@ -7,7 +7,7 @@ FROM jupyter/pyspark-notebook:spark-3.4.1
 WORKDIR /app
 
 # Install extra Python packages
-RUN pip install delta-spark h5py pandas matplotlib mlflow seaborn scikit-learn jupyterlab numpy==1.23.5
+RUN pip install delta-spark h5py pandas matplotlib mlflow seaborn scikit-learn jupyterlab numpy==1.23.5 plotly
 
 # Add Delta Lake JAR to Spark
 ENV DELTA_VERSION=2.4.0
